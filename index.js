@@ -38,7 +38,7 @@ server.get('/fetch-wordpress-graphql', async (_req, res) => {
 });
 
 server.get('/envs', (req, res) => {
-  console.log('hello!');
+  console.log('hello!!');
   console.log(process.env);
   res.send('Envs displayed in logs!');
 });
